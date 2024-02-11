@@ -11,7 +11,7 @@ const Battingout = ({finalscore}) => {
     }
   return (
     <div>
-       {displayContent && ( <><p className='parabattingout'>YOU WERE TAKEN OUT..!</p>
+       {displayContent && ( <><p className='parabattingout'>YOU WERE TAKEN OUT...!</p>
        <p className='parabattingout'>RUNS YOU NEED TO DEFEND<span className='score'>{finalscore}</span></p>
        <button className=" buttonbattingout" onClick={() => handleclick()}>START BOWLING</button></>)}
        {!displayContent && <BowlingSecond score={finalscore} />}
