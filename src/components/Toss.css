@@ -1,57 +1,52 @@
-.gameOption{
-    background:#393e46; 
-    height:88vh;
-    margin: 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* margin-top: 0%; */
+.gameOption {
+  background: #393e46;
+  height: 88vh;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* margin-top: 0%; */
 }
-h3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: #e5dfdf;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   padding-bottom: auto;
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #e5dfdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: auto;
 }
-.optionButton{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* background-color: blue; */
-   
+.optionButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.selectbutton{
-    background-color: #f8b500;
-    color:  #393e46;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    margin-right: 15px;
-    margin-top: 1vh;
-    border: 2px outset #393e46;
-   
+.selectbutton {
+  background-color: #f8b500;
+  color: #393e46;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-right: 15px;
+  margin-top: 1vh;
+  border: 2px outset #393e46;
 }
 
-.selectbutton:hover{
-    background-color:  #393e46;
-    color: #f8b500;
-    border: 2px outset #f8b500;
-    /* font-size: 26px;
-    padding: 11px 21px; */
+.selectbutton:hover {
+  background-color: #393e46;
+  color: #f8b500;
+  border: 2px outset #f8b500;
 }

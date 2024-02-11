@@ -1,18 +1,18 @@
-*{
-    user-select: none;
+* {
+  user-select: none;
 }
-.head{
-    margin: 0;
-    padding: 0;
-    background: #f8b500;
-    color: #393e46;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    top:0;
-    width: 100vw;
-    position: relative; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 12vh;
+.head {
+  margin: 0;
+  padding: 0;
+  background: #f8b500;
+  color: #393e46;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  top: 0;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
 }

@@ -1,9 +1,11 @@
 import React from 'react'
-import "./End.css"
+import './End.css'
 
 const End = () => {
   return (
-    <div><p className='endpara'>THANKS FOR PLAYING..!LETS PLAY SOOOOON!!</p></div>
+    <div>
+      <p className="endpara">THANKS FOR PLAYING..!LETS PLAY SOOOOON!!</p>
+    </div>
   )
 }
 
