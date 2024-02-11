@@ -1,0 +1,111 @@
+.opponentscorepara{
+    display:inline-block;
+   
+   /* margin-left: 30px; */
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   color: #e5dfdf;
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; */
+   margin-bottom: 30px;
+   padding-left:30px;
+}
+.score{
+    color: #f8b500; 
+    font-family: Verdana, sans-serif;
+    /* padding-bottom: 10px; */
+}
+.opponenttotalscore{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #e5dfdf;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.bowlingbutton{
+    background-color: #f8b500;
+    color:  #393e46;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 1vh;
+    border: 2px outset #393e46;
+    /* display:inline-block; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.buttonrow{
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bowlingbutton:hover{
+    background-color:  #393e46;
+    color: #f8b500;
+    border: 2px outset #f8b500;
+ 
+}
+.opponentendpara{
+    display:flex;
+   
+    /* margin-left: 30px; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #e5dfdf;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 30px;
+    padding-left:30px;
+}
+.bowlingendbutton{
+    background-color: #f8b500;
+    color:  #393e46;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 1vh;
+    border: 2px outset #393e46;
+    /* display:inline-block; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.buttonendrow{
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bowlingendbutton:hover{
+    background-color:  #393e46;
+    color: #f8b500;
+    border: 2px outset #f8b500;
+ 
+}
